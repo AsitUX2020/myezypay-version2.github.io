@@ -1,0 +1,229 @@
+<!doctype html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <title>Ezypay online Services Pvt. Ltd.</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" type="text/css">
+    <link href="assets/css/my-style-2.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/input-style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Theme Style -->
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css">
+
+    <!-- AUTO COMPLITE -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <script src="assets/js/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/jquery.ui.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Navbar Start Here -->
+    <nav class="navbar navbar-expand-lg navbar-light my-header">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/brand-logo.svg" alt="" width="auto" height="48">
+            </a>
+            <div class="collapse navbar-collapse d-none d-xl-block hero-contact" id="navbarTogglerDemo03">
+                <ul class="navbar-nav">
+                    <li class="contact-info">
+                        <p class="contact-text" href="#"><img class="contact-icon" src="assets/images/phone.svg"
+                                alt="phone">Customer Care Number : 0341-2253334 / +91 93329 97400</p>
+                    </li>
+                    <li class="contact-info">
+                        <p class="contact-text" href="#"><img class="contact-icon" src="assets/images/mail.svg"
+                                alt="email">Email : support@ezypay.co.in</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-primary join-us" type="submit">Join Us</button>
+        </div>
+    </nav>
+    <!-----
+    <nav class="navbar navbar-light log-nav" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/brand-logo.svg" alt="" width="auto" height="36">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto hero-contact">
+                    <li class="contact-info">
+                        <p class="contact-text" href="#"><img class="contact-icon" src="assets/images/phone.svg"
+                                alt="phone">Customer Care Number : 0341-2253334 / +91 93329 97400</p>
+                    </li>
+                    <li class="contact-info">
+                        <p class="contact-text" href="#"><img class="contact-icon" src="assets/images/mail.svg"
+                                alt="email">Email : support@ezypay.co.in</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-primary join-us" type="submit">Join Us</button>
+        </div>
+    </nav>
+    ----->
+    <!-- Navbar End Here -->
+
+    <!-- Hero Content Start Here -->
+    <div class="hero-content" style="background: linear-gradient(#56A2FF, #46FFBD);">
+        <div class="container">
+            <div class="row banner-group">
+                <div class="col-md-6 col-lg-8 col-xl-8 d-none d-md-block banner-img">
+                    <img class="micro-atm" src="assets/images/banner1.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4 special-form">
+                    <div class="login-card">
+                        <div class="login-header">
+                            <h5 class="sm-title">Welcome To</h5>
+                            <h3 class="bg-title">Customer Portal</h3>
+                        </div>
+                        <fieldset class="form-group label-floating">
+                            <div class="on-focus clearfix " style="position: relative;">
+                                <label class="control-label pace">User Id or Mobile Number</label>
+                                <input class="form-control left-icon" type="text">
+                                <span><img class="input-icon" src="assets/images/userID.svg" alt=""></span>
+                            </div>
+                        </fieldset>
+                        <fieldset class="form-group label-floating" style="margin-top: 16px;">
+                            <div class="on-focus clearfix " style="position: relative;">
+                                <label class="control-label pace">Password</label>
+                                <input class="form-control left-icon" type="password" id="password">
+                                <span><img class="input-icon" src="assets/images/padlock.svg" alt=""></span>
+                                <span><i class="fa fa-eye view-icon" id="togglePassword" aria-hidden="true"></i></span>
+                            </div>
+                        </fieldset>
+                        <div class="captcha-group" style="margin-top: 16px;">
+                            <img class="captcha-image" src="assets/images/captcha.png" alt="" style="float: left;">
+                            <fieldset class="form-group label-floating">
+                                <div class="on-focus clearfix " style="position: relative;">
+                                    <label class="control-label capt">Type the correct text</label>
+                                    <button class="btn btn-primary refresh" type="submit"
+                                        onClick="refreshcaptcha()"><img class="" src="assets/images/refresh.svg"
+                                            alt=""></button>
+                                    <input class="form-control captcha-text" type="text">
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="" style="clear: both;">
+                            <div class="custom-control custom-switch" style="float: left; margin-bottom: 20px;">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                <label class="custom-control-label" for="customSwitch1">Remember Me</label>
+                            </div>
+                            <div class="forgot-pass" style="float: right; margin-bottom: 20px;">
+                                <button type="button" class="btn btn-link forgot-label" data-toggle=""
+                                    data-target="">Forgot Password?</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary sign-in" type="submit">Sign in</button>
+
+                        <div class="ssl-secured d-flex justify-content-between" style="clear: both;">
+                            <div class="sectigo-brand">
+                                <img class="sectigo-logo" src="assets/images/sectigo-logo.png" alt="">
+                            </div>
+                            <div class="ssl-certified" style="float: right;">
+                                <img class="sectigo-logo" src="assets/images/ssl.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-card d-flex justify-content-between">
+                        <label class="download-app">Download the app and register now!</label>
+                        <a class="app-brand" href="https://play.google.com/store/apps/details?id=com.ezypay"
+                            target="_blank"><img class="playstore" src="assets/images/playstore.png" alt="" width="auto"
+                                height="40" style="float: right;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Hero Content End Here -->
+
+
+    <!-- Login Footer Start Here -->
+    <div class="footer-content" style="background: #202956;">
+        <div class="container d-flex justify-content-between">
+            <div class="copyright">
+                <label class="footer-text">Copyright © 2013 EzyPay. All rights reserved</label>
+            </div>
+            <div class="about-company">
+                <a class="link-to-website" href="https://ezypay.co.in/about.html" target="_blank">About Company</a>
+                <label class="footer-text">I</label>
+                <a class="link-to-website" href="https://ezypay.co.in/p_policy.html" target="_blank">Privacy Policy</a>
+                <label class="footer-text">I</label>
+                <a class="link-to-website" href="https://ezypay.co.in/t_conditions.html" target="_blank">Terms & Conditions</a>
+                <label class="footer-text">I</label>
+                <a class="link-to-website" href="https://ezypay.co.in/grievance-policy.html" target="_blank">Grievance Policy</a>
+                <label class="footer-text">I</label>
+                <a class="link-to-website" href="https://ezypay.co.in/faqs.html" target="_blank">FAQ's</a>
+            </div>
+            <div class="social" style="float: left;">
+                <a class="social-icon" href="https://www.facebook.com/ezypayonline" target="_blank">
+                    <img class="social-media" src="assets/images/facebook.svg" alt="">
+                </a>
+                <a class="social-icon" href="https://play.google.com/store/apps/details?id=com.ezypay" target="_blank">
+                    <img class="social-media" src="assets/images/linkedin.svg" alt="">
+                </a>
+                <a class="social-icon twitter-timeline" href="https://twitter.com/my_ezypay?ref_src=twsrc%5Etfw" target="_blank">
+                    <img class="social-media" src="assets/images/twitter.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Login Footer End Here -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="assets/js/custom.min.js"></script>
+    <script src="assets/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="assets/js/material-dashboard.js"></script>
+    <script src="assets/js/material.min.js"></script>
+    <script src="assets/js/jquery-input-mask-phone-number.js"></script>
+    <script src="assets/js/viewPassword.js"></script>
+
+
+    <!--- Phone no js --->
+    <script>
+        $(document).ready(function () {
+            $('.phoneno').usPhoneFormat({
+                format: 'xxx xxx xxxx',
+            });
+        });
+    </script>
+    <!--- End Phone no js --->
+</body>
+
+</html>
