@@ -194,7 +194,7 @@ label.control-label {
 
 .form-group {
   padding-bottom: 12px;
-  margin: 16px 0 28px 0 !important;
+  margin: 16px 0 24px 0 !important;
 }
 .form-group .form-control::-moz-placeholder {
   font-size: 14px;
