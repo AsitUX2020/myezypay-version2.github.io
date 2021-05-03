@@ -62,32 +62,10 @@
             <button class="btn btn-primary join-us" type="submit">Join Us</button>
         </div>
     </nav>
-    <!-----
-    <nav class="navbar navbar-light log-nav" style="background-color: #e3f2fd;">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/brand-logo.svg" alt="" width="auto" height="36">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto hero-contact">
-                    <li class="contact-info">
-                        <p class="contact-text" href="#"><img class="contact-icon" src="assets/images/phone.svg"
-                                alt="phone">Customer Care Number : 0341-2253334 / +91 93329 97400</p>
-                    </li>
-                    <li class="contact-info">
-                        <p class="contact-text" href="#"><img class="contact-icon" src="assets/images/mail.svg"
-                                alt="email">Email : support@ezypay.co.in</p>
-                    </li>
-                </ul>
-            </div>
-            <button class="btn btn-primary join-us" type="submit">Join Us</button>
-        </div>
-    </nav>
-    ----->
     <!-- Navbar End Here -->
 
     <!-- Hero Content Start Here -->
-    <div class="hero-content" style="background: linear-gradient(#56A2FF, #46FFBD);">
+    <div class="hero-content" style="background: linear-gradient(#56e6ff, #100a87);">
         <div class="container">
             <div class="row banner-group">
                 <div class="col-md-6 col-lg-8 col-xl-8 d-none d-md-block banner-img">
@@ -99,53 +77,57 @@
                             <h5 class="sm-title">Welcome To</h5>
                             <h3 class="bg-title">Customer Portal</h3>
                         </div>
-                        <fieldset class="form-group label-floating">
-                            <div class="on-focus clearfix " style="position: relative;">
-                                <label class="control-label pace">User Id or Mobile Number</label>
-                                <input class="form-control left-icon" type="text">
-                                <span><img class="input-icon" src="assets/images/userID.svg" alt=""></span>
-                            </div>
-                        </fieldset>
-                        <fieldset class="form-group label-floating" style="margin-top: 16px;">
-                            <div class="on-focus clearfix " style="position: relative;">
-                                <label class="control-label pace">Password</label>
-                                <input class="form-control left-icon" type="password" id="password">
-                                <span><img class="input-icon" src="assets/images/padlock.svg" alt=""></span>
-                                <span><i class="fa fa-eye view-icon" id="togglePassword" aria-hidden="true"></i></span>
-                            </div>
-                        </fieldset>
-                        <div class="captcha-group" style="margin-top: 16px;">
-                            <img class="captcha-image" src="assets/images/captcha.png" alt="" style="float: left;">
+                        <div class="login-form">
                             <fieldset class="form-group label-floating">
                                 <div class="on-focus clearfix " style="position: relative;">
-                                    <label class="control-label capt">Type the correct text</label>
-                                    <button class="btn btn-primary refresh" type="submit"
-                                        onClick="refreshcaptcha()"><img class="" src="assets/images/refresh.svg"
-                                            alt=""></button>
+                                    <label class="control-label pace">User Id or Mobile Number</label>
+                                    <input class="form-control left-icon" type="text">
+                                    <span><img class="input-icon" src="assets/images/userID.svg" alt=""></span>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-group label-floating">
+                                <div class="on-focus clearfix " style="position: relative;">
+                                    <label class="control-label pace">Password</label>
+                                    <input class="form-control left-icon" type="password" id="password">
+                                    <span><img class="input-icon" src="assets/images/padlock.svg" alt=""></span>
+                                    <span><i class="fa fa-eye view-icon" id="togglePassword" aria-hidden="true"></i></span>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-group label-floating">
+                                <div class="on-focus clearfix " style="position: relative;">
+                                    <label class="control-label capt">Enter the text as shown in the image*</label>
                                     <input class="form-control captcha-text" type="text">
                                 </div>
                             </fieldset>
+                            <div class="captcha-group">
+                                <img class="captcha-image" src="assets/images/captcha.png" alt="" style="float: left;">
+                                <button class="btn btn-primary refresh" type="submit"
+                                            onClick="refreshcaptcha()"><img class="captcha-icon" src="assets/images/refresh.svg"
+                                                alt="">
+                                </button>
+                            </div>
+                            <div class="" style="clear: both;">
+                                <div class="custom-control custom-switch" style="float: left; margin-bottom: 20px;">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                    <label class="custom-control-label" for="customSwitch1">Remember Me</label>
+                                </div>
+                                <div class="forgot-pass" style="float: right; margin-bottom: 20px;">
+                                    <button type="button" class="btn btn-link forgot-label" data-toggle=""
+                                        data-target="">Forgot Password?</button>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary sign-in" type="submit">Sign in</button>
+    
+                            <div class="ssl-secured d-flex justify-content-between" style="clear: both;">
+                                <div class="sectigo-brand">
+                                    <img class="sectigo-logo" src="assets/images/sectigo-logo.png" alt="">
+                                </div>
+                                <div class="ssl-certified" style="float: right;">
+                                    <img class="sectigo-logo" src="assets/images/ssl.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                        <div class="" style="clear: both;">
-                            <div class="custom-control custom-switch" style="float: left; margin-bottom: 20px;">
-                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                                <label class="custom-control-label" for="customSwitch1">Remember Me</label>
-                            </div>
-                            <div class="forgot-pass" style="float: right; margin-bottom: 20px;">
-                                <button type="button" class="btn btn-link forgot-label" data-toggle=""
-                                    data-target="">Forgot Password?</button>
-                            </div>
-                        </div>
-                        <button class="btn btn-primary sign-in" type="submit">Sign in</button>
-
-                        <div class="ssl-secured d-flex justify-content-between" style="clear: both;">
-                            <div class="sectigo-brand">
-                                <img class="sectigo-logo" src="assets/images/sectigo-logo.png" alt="">
-                            </div>
-                            <div class="ssl-certified" style="float: right;">
-                                <img class="sectigo-logo" src="assets/images/ssl.png" alt="">
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="app-card d-flex justify-content-between">
                         <label class="download-app">Download the app and register now!</label>

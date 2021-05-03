@@ -109,22 +109,26 @@ body{
 .app-card.d-flex{
     flex-direction: row;
 }
+.captcha-group{
+    clear: both;
+    float: left;
+    margin-bottom: 28px;
+}
 .captcha-image{
-    width: 30%;
     height: 40px;
-    padding: 5px;
-    border: 1px solid #ced4da;
-    border-radius: 4PX;
-    margin-right: 12px;
+    border-radius: 4px;
 }
 .refresh{
-    border-radius: 0 4px 4px 0 !important;
+    border-radius: 4px !important;
     width: 40px !important;
     height: 40px !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin-left: 12px !important;
     position: absolute;
-    right: 0;
+}
+.captcha-icon{
+    width: 24px;
+    height: auto;
 }
 .banner-group{
     align-items:center;
@@ -165,9 +169,6 @@ body{
 .footer-content{
     width: 100%;
     padding: 8px 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
 .footer-text{
     font-size: 14px;

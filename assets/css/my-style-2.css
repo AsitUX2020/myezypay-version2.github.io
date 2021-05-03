@@ -163,9 +163,6 @@ label{font-weight: normal;}
 .form-group {
   position: relative;
 }
-.form-group + .form-group {
-  margin-top: 20px;
-}
 .form-label {
   position: absolute;
   left: 0;
@@ -973,15 +970,14 @@ select:focus ~ .bar:before, select:focus ~ .bar:after {
 }
 .input-icon{
 	position: absolute;
-    padding-left: 12px;
     top: 10px;
-    width: 32px;
+    width: 20px;
     height: 20px;
 }
 .view-icon{
     font-size: 16px !important;
 	position: absolute;
-    right: 12px;
+    right: 0;
     top: 12px;
     padding: 0 !important;
     margin: 0 !important;

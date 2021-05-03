@@ -39,14 +39,16 @@
 
 /**** end floating-Lable style ****/
 
-.amt{padding:7px 10px 7px 20px!important;}
-.phoneno{padding:7px 10px 7px 44px!important;}
-.left-icon{padding:7px 10px 7px 44px!important;}
-.captcha-text{padding:7px 10px 7px 12px!important;}
+.amt{padding:7px 28px 7px 20px!important;}
+.phoneno{padding:7px 28px 7px 28px!important;}
+.left-icon{padding:7px 28px 7px 28px!important;}
+.captcha-text{padding:7px 28px 7px 0!important;}
 .form-control{
-	 padding:7px 10px 7px 5px;
+	 padding:7px 28px 7px 5px;
 }
 .form-control, .form-group .form-control {
+  border: 0;
+  background-image: linear-gradient(#2D8CFF, #2D8CFF), linear-gradient(#8c8c8c, #8c8c8c);
   background-size: 0 2px, 100% 1px;
   background-repeat: no-repeat;
   background-position: center bottom, center calc(100% - 1px);
@@ -54,8 +56,9 @@
   transition: background 0.3s ease-out;
   float: none;
   box-shadow: none;
-  border-radius: 4px;
-  font-weight: 600;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 600  !important;
   letter-spacing:1px;
 }
 .form-control::-moz-placeholder, .form-group .form-control::-moz-placeholder {
@@ -190,8 +193,9 @@ label.control-label {
   font-size: 11px; }
 
 .form-group {
-  padding-bottom: 10px;
-  margin: 8px 0 0 0; }
+  padding-bottom: 12px;
+  margin: 16px 0 28px 0 !important;
+}
 .form-group .form-control::-moz-placeholder {
   font-size: 14px;
   line-height: 1.428571429;
@@ -224,43 +228,40 @@ label.control-label {
   font-size: 11px; }
 .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
   top: -7px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color:#737373;
   }
 .form-group.label-floating label.pace, .form-group.label-placeholder label.pace {
   top: -6px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color:#737373;
-  margin-left:44px;
+  margin-left:28px;
 }
 .form-group.label-floating label.capt, .form-group.label-placeholder label.capt {
   top: -6px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color:#737373;
-  margin-left:12px;
 }
 .form-group.label-floating label.amut, .form-group.label-placeholder label.amut {
   top: -7px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color:#737373;
   margin-left:18px;
 }
 .form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label {
-  top: -25px;
+  top: -32px;
   left: 0;
   font-size: 12px;
   line-height: 1.0714285718;
   color:#909090;
 }
 .form-group.label-static label.pace, .form-group.label-floating.is-focused label.pace, .form-group.label-floating:not(.is-empty) label.pace {
-  left: -36px;
+  left: -28px;
   color: #2D8CFF;
-  background-color: white;
-  padding: 4px;
 }
 .form-group.label-static label.capt, .form-group.label-floating.is-focused label.capt, .form-group.label-floating:not(.is-empty) label.capt {
   left: -4px;
@@ -279,7 +280,7 @@ label.control-label {
   left: 0;  }
 
 .form-group.form-group-sm {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   margin: 8px 0 0 0; }
 .form-group.form-group-sm .form-control::-moz-placeholder {
   font-size: 11px;
@@ -326,7 +327,7 @@ label.control-label {
   line-height: 1.125; }
 
 .form-group.form-group-lg {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   margin: 8px 0 0 0; }
 .form-group.form-group-lg .form-control::-moz-placeholder {
   font-size: 18px;
@@ -386,16 +387,16 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 @media (max-width:280px){
   .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
-    font-size: 10px;
+    font-size: 14px;
   }
   .form-group.label-floating label.pace, .form-group.label-placeholder label.pace {
-    font-size: 10px;
+    font-size: 14px;
   }
   .form-group.label-floating label.capt, .form-group.label-placeholder label.capt {
-    font-size: 10px;
+    font-size: 14px;
   }
   .form-group label.control-label {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.0714285718;
     color: #737373;
     font-weight: 400;
@@ -404,16 +405,16 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 } 
 @media (max-width:320px){
   .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
-    font-size: 12px;
+    font-size: 14px;
     }
   .form-group.label-floating label.pace, .form-group.label-placeholder label.pace {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group.label-floating label.capt, .form-group.label-placeholder label.capt {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group label.control-label {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.0714285718;
     color: #737373;
     font-weight: 400;
@@ -440,16 +441,16 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 @media (max-width:1024px){
   .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group.label-floating label.pace, .form-group.label-placeholder label.pace {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group.label-floating label.capt, .form-group.label-placeholder label.capt {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group label.control-label {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.0714285718;
     color: #737373;
     font-weight: 400;
@@ -458,16 +459,16 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 @media (max-width:1200px){
   .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group.label-floating label.pace, .form-group.label-placeholder label.pace {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group.label-floating label.capt, .form-group.label-placeholder label.capt {
-    font-size: 12px;
+    font-size: 14px;
   }
   .form-group label.control-label {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.0714285718;
     color: #737373;
     font-weight: 400;

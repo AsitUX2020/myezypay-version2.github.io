@@ -2256,12 +2256,9 @@ legend {
  padding-right:45px
 }
 label {
-    font-weight: normal;
+  font-weight: normal;
 	margin-bottom: 0px;
 	font-size: 11px;
-}
-.form-group {
- margin-bottom:10px
 }
 .validate {
  margin-top:10px
@@ -3532,9 +3529,6 @@ a.hiddenanchor {
 }
 #username {
  background-position:10px 10px!important
-}
-#password {
- background-position:10px -53px!important
 }
 .login_content form div a {
  font-size:12px;
