@@ -223,10 +223,10 @@ body{
         line-height: 20px;
     }
     .sectigo-brand{
-        width: 50%;
+        width: 50% !important;
     }
     .dnld-app{
-        width: 50%;
+        width: 50% !important;
     }
     .download-app{
         font-size: 12px !important;
