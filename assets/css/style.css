@@ -98,7 +98,7 @@ body{
     width: 100%;
     padding: 20px;
     overflow: hidden;
-    margin-top: 1px !important;
+    margin: 1px 0 0 0 !important;
     border-radius: 0 0 4px 4px!important;
     background-color:#ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -151,13 +151,19 @@ body{
 .forgot-label:hover{
     color:#236AC2 !important;
 }
-
+.sectigo-brand{
+    padding: 0 !important;
+}
+.dnld-app{
+    padding: 0 !important;
+}
 .download-app{
     font-size: 14px !important;
     color: #000000;
     line-height: 20px;
-    text-align: left;
+    text-align: center;
     float: left;
+    margin-bottom: 12px;
 }
 .footer-content{
     width: 100%;
@@ -204,6 +210,10 @@ body{
     .forgot-label{
         font-size: 10px !important;
     }
+    .footer-content{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
     .footer-text{
         font-size: 12px;
         line-height: 20px;
@@ -211,6 +221,16 @@ body{
     .link-to-website{
         font-size: 12px;
         line-height: 20px;
+    }
+    .sectigo-brand{
+        width: 50%;
+    }
+    .dnld-app{
+        width: 50%;
+    }
+    .download-app{
+        font-size: 12px !important;
+        text-align: left !important;
     }
 }
 
@@ -256,8 +276,19 @@ body{
     .forgot-label{
         font-size: 12px !important;
     }
+    .sectigo-brand{
+        width: 50% !important;
+    }
+    .dnld-app{
+        width: 50% !important;
+    }
     .download-app{
         font-size: 12px !important;
+        text-align: left !important;
+    }
+    .footer-content{
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     .footer-text{
         font-size: 12px;
@@ -266,7 +297,7 @@ body{
     .link-to-website{
         font-size: 12px;
         line-height: 20px;
-    }    
+    }   
 }
 @media (max-width:411px){
     .navbar-brand img{
@@ -279,6 +310,10 @@ body{
     .special-form{
         margin: 20px !important;
     }
+    .footer-content{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
     .footer-text{
         font-size: 12px;
         line-height: 20px;
@@ -286,6 +321,16 @@ body{
     .link-to-website{
         font-size: 12px;
         line-height: 20px;
+    }
+    .sectigo-brand{
+        width: 50% !important;
+    }
+    .dnld-app{
+        width: 50% !important;
+    }
+    .download-app{
+        font-size: 12px !important;
+        text-align: left !important;
     }
     
 }
@@ -300,6 +345,10 @@ body{
     .special-form{
         margin: 20px !important;
     }
+    .footer-content{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
     .footer-text{
         font-size: 12px;
         line-height: 20px;
@@ -307,6 +356,16 @@ body{
     .link-to-website{
         font-size: 12px;
         line-height: 20px;
+    }
+    .sectigo-brand{
+        width: 50% !important;
+    }
+    .dnld-app{
+        width: 50% !important;
+    }
+    .download-app{
+        font-size: 12px !important;
+        text-align: left !important;
     }
     
 }
@@ -321,6 +380,10 @@ body{
     .special-form{
         margin: 20px !important;
     }
+    .footer-content{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
     .footer-text{
         font-size: 12px;
         line-height: 20px;
@@ -328,6 +391,16 @@ body{
     .link-to-website{
         font-size: 12px;
         line-height: 20px;
+    }
+    .sectigo-brand{
+        width: 50% !important;
+    }
+    .dnld-app{
+        width: 50% !important;
+    }
+    .download-app{
+        font-size: 12px !important;
+        text-align: left !important;
     }
     
 }
@@ -337,6 +410,20 @@ body{
     }
     .micro-atm{
         display: none;
+    }
+    .footer-content{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .sectigo-brand{
+        width: 50% !important;
+    }
+    .dnld-app{
+        width: 50% !important;
+    }
+    .download-app{
+        font-size: 12px !important;
+        text-align: left !important;
     }
 }
 
@@ -360,6 +447,7 @@ body{
     .contact-icon{
         padding-right: 12px;
     }
+    
 }
 @media (max-width:1200px){
     .special-form{
@@ -387,6 +475,11 @@ body{
     }
     .footer-content{
         position: inherit;
+    }
+    .footer-content{
+        position: inherit;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     .d-flex {
         display: -ms-flexbox!important;
