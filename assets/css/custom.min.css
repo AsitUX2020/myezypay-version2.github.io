@@ -42,7 +42,7 @@
  border:1px solid #ccc;
 }
 .daterangepicker select.ampmselect,.daterangepicker select.hourselect,.daterangepicker select.minuteselect,.daterangepicker select.monthselect,.daterangepicker select.secondselect,.daterangepicker select.yearselect {
- font-size:14px;
+ font-size:12px;
  padding:1px;
  margin:0;
  cursor:default;
